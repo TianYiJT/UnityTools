@@ -1,0 +1,72 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1243478560048646}
+  m_IsPrefabParent: 1
+--- !u!1 &1243478560048646
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4316411906358744}
+  - component: {fileID: 114073927387564904}
+  - component: {fileID: 114050221487263012}
+  m_Layer: 0
+  m_Name: randomGamobject
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4316411906358744
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243478560048646}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.14723006, y: 0.0394511, z: -0.020522412}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &114050221487263012
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243478560048646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1a50cd536bbbc4ba53ad5ba595ccfc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  tiles:
+  - {fileID: 1364171916034346, guid: 913b663abf1629540b65b1328bf87653, type: 2}
+  - {fileID: 1143840271614096, guid: 86b5541a5a890444ab83d29e26c99226, type: 2}
+  - {fileID: 1440814945176736, guid: 7cb381842789f444797fecf5f4de7395, type: 2}
+--- !u!114 &114073927387564904
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1243478560048646}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c73de4f67ba72cb4f872a41c6f94efa1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  mytex: {fileID: 2800000, guid: 488a927f283ec489386db667c5b0939a, type: 3}
+  bounds: {x: 1, y: 1}
+  type: 5

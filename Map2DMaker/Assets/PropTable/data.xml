@@ -1,0 +1,26 @@
+<Prop allPropSize="13" GroupSize="3" DefaultTileSize="2">
+  <GroupName>
+    <Group GroupName="big" />
+    <Group GroupName="special" />
+    <Group GroupName="testStyle" />
+  </GroupName>
+  <PropTable>
+    <Prop AllIndex="0" GroupIndex="0" GroupName="big" prefabPath="scene_02_pandulum" RangeTableX="3" RangeTableY="3" />
+    <Prop AllIndex="1" GroupIndex="1" GroupName="big" prefabPath="scene_01_pandulum" RangeTableX="3" RangeTableY="3" />
+    <Prop AllIndex="2" GroupIndex="0" GroupName="special" prefabPath="randomcontrol" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="3" GroupIndex="1" GroupName="special" prefabPath="randomGamobject" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="4" GroupIndex="2" GroupName="special" prefabPath="connectpoint" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="5" GroupIndex="3" GroupName="special" prefabPath="door" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="6" GroupIndex="0" GroupName="testStyle" prefabPath="player_fly_f02" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="7" GroupIndex="1" GroupName="testStyle" prefabPath="player_hurt_f01" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="8" GroupIndex="2" GroupName="testStyle" prefabPath="player_idle_f02" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="9" GroupIndex="3" GroupName="testStyle" prefabPath="scene_01_blockDown" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="10" GroupIndex="4" GroupName="testStyle" prefabPath="scene_01_blockTop" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="11" GroupIndex="5" GroupName="testStyle" prefabPath="scene_02_midground" RangeTableX="1" RangeTableY="1" />
+    <Prop AllIndex="12" GroupIndex="6" GroupName="testStyle" prefabPath="scene_03_midground" RangeTableX="1" RangeTableY="1" />
+  </PropTable>
+  <DefaultTile>
+    <DT DT_PATH="scene_02_blockDown" DT_INDEX="0" />
+    <DT DT_PATH="scene_02_blockTop" DT_INDEX="1" />
+  </DefaultTile>
+</Prop>

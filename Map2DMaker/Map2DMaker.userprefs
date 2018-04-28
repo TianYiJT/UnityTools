@@ -1,0 +1,23 @@
+﻿<Properties StartupItem="Assembly-CSharp.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" PreferredExecutionTarget="Unity.Instance.Unity Editor" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets\RLRandom.cs">
+    <Files>
+      <File FileName="Assets\TileGameobject.cs" Line="1" Column="1" />
+      <File FileName="Assets\Editor\Map2DMaker.cs" Line="1" Column="1" />
+      <File FileName="Assets\PropTable\data.xml" Line="1" Column="1" />
+      <File FileName="Assets\Shape\test2.xml" Line="1" Column="1" />
+      <File FileName="Assets\Editor\MapMaker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Editor\ShapeMaker.cs" Line="1" Column="1" />
+      <File FileName="Assets\Map2D.cs" Line="1" Column="1" />
+      <File FileName="Assets\RLRandomRT.cs" Line="1" Column="1" />
+      <File FileName="Assets\RLRandom.cs" Line="351" Column="52" />
+      <File FileName="Assets\RLRandomTranfer.cs" Line="1" Column="1" />
+      <File FileName="Assets\Init思路.txt" Line="1" Column="1" />
+      <File FileName="Assets\Map\test3.xml" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

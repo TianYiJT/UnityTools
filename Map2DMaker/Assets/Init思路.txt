@@ -1,0 +1,18 @@
+RLRamdom 特殊标签
+-4 门
+-1 不存在
+-2 没被占用
+-3 被占用
+>=0 有意义的物品
+-6 由随机生成
+-5 连接点
+0 down 1 up 2 right 3 left
+
+对于一个模板存储的索引，如其大于0，要检查其PropEditorTexture,如其type = -6,-5,-4 将其索引更新
+
+Init 步骤
+1. 加载所有的形状模板
+2. 加载所有的Map模板，并根据规则更新
+3. 加载道具模板 ,初始化 MapIndexDatabase,TileDatabase,defaultTilebase
+4. 根据Style分类, 结合 PropEditorTexture中type的值 5 = ai,6= 墙,7= 默认模块,8=障碍及道具 初始化 Style....的索引数组
+5.初始化RLFunction
